@@ -1,1 +1,6 @@
-# Assignment-3-othello
+# Othello
+- Description
+
+- Experiments made
+
+- Conclutions
