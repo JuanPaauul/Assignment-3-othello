@@ -12,6 +12,7 @@ You will need Visual studio code ass well as git installed.
         > git clone https://github.com/JuanPaauul/Assignment-3-othello.git
         > code .
         ```
+## About the work
 - Description
     We tried with the alpha beta prunning algoritm to find the best move in the game. As we tried to make it work, we noticed that the algorithm is not working for a reason that we dont found.<br>
     We tried to find a solution but we just noticed that making the algorithm work step-by-step workd perfectly, but when we implement it to the alpha beta algoritm, it does not work.<br>
@@ -32,7 +33,7 @@ You will need Visual studio code ass well as git installed.
     ```
     new_states = simplify_repited_destins(new_states, self.board)
     ```
-    ![image](https://github.com/JuanPaauul/Assignment-3-othello/Merge_origins.png?raw=true)
+    ![image](https://github.com/JuanPaauul/Assignment-3-othello/blob/main/Merge_origins.png)
 - Conclutions
     Depending on the player (min or max), alpha beta prunning will always try to find the best move in less time than min max algorithm by cutting of the game-tree. As the algorithm works, it will play with the utility value to work properly.
     A good way to improve the time of execution is to implement a max_depth value on the alpha beta prunning. The main reason for this is the size of the game-tree. It will get bigger and bigger depending on the ammount of pieces and the ammount of possible moves. By cutting it according with a specific depth, we will still get a great move and we will also improve the performance of the IA.
